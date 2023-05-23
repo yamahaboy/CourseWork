@@ -1,0 +1,62 @@
+$photos-cantainer-text-back: #5c3249;
+$text-color:#ffffff;
+.photos-page {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 115px;
+}
+
+.photos-page-content {
+  display: flex;
+  flex-direction: row;
+  height: 490px;
+  margin-bottom: 30px;
+}
+
+.photo {
+  width: 740px;
+}
+.photo img {
+  width: 100%;
+  height: 100%;
+}
+
+.photos-cantainer-text {
+  display: flex;
+  flex-direction: column;
+  background: $photos-cantainer-text-back;
+  width: calc(100% - 740px);
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+}
+
+.photo-main-text {
+  display: flex;
+  font-family: "Cardo";
+  font-style: italic;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 49px;
+  text-transform: capitalize;
+  color: $text-color;
+  margin-bottom: 10px;
+}
+
+.photo-text {
+  display: flex;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 15px;
+  text-transform: uppercase;
+  color: $text-color;
+}
+
+
+.radio-btn-container{
+    display: flex;
+    justify-content:center;
+    gap: 25px;
+}

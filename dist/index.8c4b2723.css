@@ -1,0 +1,62 @@
+.photos-page {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 115px;
+}
+
+.photos-page-content {
+  height: 490px;
+  flex-direction: row;
+  margin-bottom: 30px;
+  display: flex;
+}
+
+.photo {
+  width: 740px;
+}
+
+.photo img {
+  width: 100%;
+  height: 100%;
+}
+
+.photos-cantainer-text {
+  width: calc(100% - 740px);
+  text-align: left;
+  background: #5c3249;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.photo-main-text {
+  text-transform: capitalize;
+  color: #fff;
+  margin-bottom: 10px;
+  font-family: Cardo;
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 49px;
+  display: flex;
+}
+
+.photo-text {
+  text-transform: uppercase;
+  color: #fff;
+  font-family: Raleway;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 15px;
+  display: flex;
+}
+
+.radio-btn-container {
+  justify-content: center;
+  gap: 25px;
+  display: flex;
+}
+
+/*# sourceMappingURL=index.8c4b2723.css.map */

@@ -1,0 +1,154 @@
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+$white-color: #ffffff;
+$backgraund-color: #ff4343;
+$hover-color: #e71414;
+
+.page-container {
+  max-width: 100%;
+  height: auto;
+}
+
+.active-box-page {
+  max-width: 100%;
+  height: auto;
+  background: url("../svg/active-box/active-box-back.svg");
+}
+
+.active-box-container {
+  max-width: 1170px;
+  height: auto;
+  display: flex;
+  margin: auto;
+  flex-direction: column;
+}
+
+.active-box-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 40px;
+  margin-bottom: 150px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #BABBC5;
+}
+
+.header-button-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.header-btn {
+  width: 130px;
+  height: 30px;
+  background: none;
+  gap: 10px;
+  border:none;
+}
+.header-btn {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 15px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  text-transform: uppercase;
+  color: $white-color;
+}
+
+.header-btn:hover::after{
+  content: "";
+  display: flex;
+  position: absolute;
+  top:10%;
+  width: 130px;
+  border-bottom: 3px solid #BABBC5;
+  transition: 2s;
+}
+
+.header-btn:active::after{
+    content: "";
+    display: flex;
+    position: absolute;
+    top:10%;
+    width: 130px;
+    border-bottom: 3px solid #BABBC5;
+    transition: .5s;
+    box-shadow: 0 0 5px black;
+    border-radius: 10px;
+    transform: translateY(-5px);
+}
+
+.active-box-main-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.active-box-main-text {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 64px;
+  line-height: 75px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  color: $white-color;
+  margin-bottom: 30px;
+}
+
+.active-box-text {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: $white-color;
+  margin-bottom: 80px;
+}
+
+.active-box-btn {
+  width: 370px;
+  height: 80px;
+  margin-bottom: 120px;
+  background: $backgraund-color;
+  border: none;
+}
+
+.active-box-btn {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  text-transform: uppercase;
+  color: $white-color;
+}
+
+.active-box-btn:hover {
+  background: $hover-color;
+  transition: 0.5s;
+}
+
+.active-box-btn:active {
+  background: $backgraund-color;
+  box-shadow: 4px 4px 30px $backgraund-color;
+  transition: 1s;
+}
