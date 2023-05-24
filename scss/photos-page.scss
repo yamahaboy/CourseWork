@@ -11,10 +11,11 @@ $text-color: #ffffff;
   max-width: 100%;
   height: auto;
   margin-bottom: 30px;
+  justify-content: space-between;
 }
 
 .photo {
-  width: 35%;
+  width: 50%;
   height: 100%;
 }
 .photo img {
@@ -26,7 +27,8 @@ $text-color: #ffffff;
   display: flex;
   flex-direction: column;
   background: $photos-cantainer-text-back;
-  width: calc(100% - 35%);
+  width: calc(100% - 30%);
+  height: auto;
   justify-content: center;
   align-items: center;
   text-align: left;
@@ -34,7 +36,7 @@ $text-color: #ffffff;
 
 .photo-main-text {
   display: flex;
-  font-family: "Cardo";
+  font-family: "Cardo", sans-serif;
   font-style: italic;
   font-weight: 400;
   font-size: 36px;
@@ -46,13 +48,14 @@ $text-color: #ffffff;
 
 .photo-text {
   display: flex;
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 13px;
   line-height: 15px;
   text-transform: uppercase;
   color: $text-color;
+  margin-right: 160px;
 }
 
 .radio-btn-container {
@@ -70,7 +73,7 @@ $text-color: #ffffff;
 }
 
 .text-ready-to-start {
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 30px;
@@ -78,10 +81,11 @@ $text-color: #ffffff;
   display: flex;
   align-items: center;
   text-align: center;
+  margin-bottom: 25px;
 }
 
 .text-fusce-dapibus {
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
@@ -101,7 +105,7 @@ $text-color: #ffffff;
   border: none;
 }
 .photo-page-btn {
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: 900;
   font-size: 24px;
@@ -114,8 +118,8 @@ $text-color: #ffffff;
   color: #ffffff;
 }
 
-.photo-page-btn:hover{
-  background:  #E71414;
+.photo-page-btn:hover {
+  background: #e71414;
   transition: 0.5s;
 }
 
@@ -124,5 +128,3 @@ $text-color: #ffffff;
   box-shadow: 4px 4px 30px #ff4343;
   transition: 1s;
 }
-
-

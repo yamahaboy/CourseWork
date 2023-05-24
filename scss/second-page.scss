@@ -1,7 +1,7 @@
-@use 'active-box' as vars;
+@use "active-box" as vars;
 
 $grid-header-color: #2d3033;
-$grid-text-color: #6C7279;;
+$grid-text-color: #6c7279;
 .second-page {
   max-width: 100%;
   height: auto;
@@ -42,7 +42,7 @@ $grid-text-color: #6C7279;;
 }
 
 .table-header {
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: 900;
   font-size: 24px;
@@ -52,7 +52,7 @@ $grid-text-color: #6C7279;;
   text-align: center;
   text-transform: uppercase;
   color: $grid-header-color;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 }
 
 .table-block:nth-child(n + 4) {
@@ -60,7 +60,7 @@ $grid-text-color: #6C7279;;
 }
 
 .table-text {
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -71,20 +71,17 @@ $grid-text-color: #6C7279;;
   color: $grid-text-color;
 }
 
-
-
-.table-block:hover{
-    transition: .5s;
-    box-shadow: 0 0 5px $grid-header-color;
-    border-radius: 10px;
-    transform: translateY(-10px);
+.table-block:hover {
+  transition: 0.5s;
+  box-shadow: 0 0 5px $grid-header-color;
+  border-radius: 10px;
+  transform: translateY(-10px);
 }
 
-
-.table-block:active{
-    transition: .5s;
-    box-shadow: 0 0 5px $grid-header-color;
-    border-radius: 10px;
-    transform: translateY(-10px);
-    background: rgba(vars.$backgraund-color, 0.3);
+.table-block:active {
+  transition: 0.5s;
+  box-shadow: 0 0 5px $grid-header-color;
+  border-radius: 10px;
+  transform: translateY(-10px);
+  background: rgba(vars.$backgraund-color, 0.3);
 }
