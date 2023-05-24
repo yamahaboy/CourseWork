@@ -8,12 +8,14 @@ $text-color: #ffffff;
 .photos-page-content {
   display: flex;
   flex-direction: row;
-  height: 490px;
+  max-width: 100%;
+  height: auto;
   margin-bottom: 30px;
 }
 
 .photo {
-  width: 740px;
+  width: 35%;
+  height: 100%;
 }
 .photo img {
   width: 100%;
@@ -24,7 +26,7 @@ $text-color: #ffffff;
   display: flex;
   flex-direction: column;
   background: $photos-cantainer-text-back;
-  width: calc(100% - 740px);
+  width: calc(100% - 35%);
   justify-content: center;
   align-items: center;
   text-align: left;

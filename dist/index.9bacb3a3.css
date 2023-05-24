@@ -11,7 +11,7 @@ html, body {
 .active-box-page {
   max-width: 100%;
   height: auto;
-  background: url("active-box-back.7dfcf6df.svg");
+  background: url("active-box-back.7dfcf6df.svg") 0 0 / cover;
 }
 
 .active-box-container {
@@ -155,14 +155,12 @@ html, body {
 .img-container {
   grid-template-rows: repeat(2, auto);
   grid-template-columns: repeat(4, auto);
-  gap: 1px;
   display: grid;
 }
 
-.individual-img img {
-  max-width: 100%;
-  height: auto;
-  border: 2px solid red;
+.img-container img {
+  object-fit: cover;
+  width: 100%;
 }
 
 /*# sourceMappingURL=index.9bacb3a3.css.map */

@@ -10,15 +10,11 @@
 }
 
 .img-container {
-  display: grid;
-  grid-template-rows: repeat(2, auto);
-  grid-template-columns: repeat(4, auto);
-  gap: 1px;
-}
-
-.individual-img img {
- border: 2px solid red;
-  max-width: 100%;
-  height: auto;
-}
-
+    display: grid;
+    grid-template-rows: repeat(2, auto);
+    grid-template-columns: repeat(4, auto);
+    img {
+      object-fit: cover;
+      width: 100%;
+    }
+  }

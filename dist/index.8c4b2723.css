@@ -4,14 +4,16 @@
 }
 
 .photos-page-content {
-  height: 490px;
+  max-width: 100%;
+  height: auto;
   flex-direction: row;
   margin-bottom: 30px;
   display: flex;
 }
 
 .photo {
-  width: 740px;
+  width: 35%;
+  height: 100%;
 }
 
 .photo img {
@@ -20,7 +22,7 @@
 }
 
 .photos-cantainer-text {
-  width: calc(100% - 740px);
+  width: 65%;
   text-align: left;
   background: #5c3249;
   flex-direction: column;
