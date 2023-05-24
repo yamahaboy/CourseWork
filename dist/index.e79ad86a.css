@@ -1,0 +1,145 @@
+.footer-page {
+  max-width: 100%;
+  height: auto;
+}
+
+.upper-block-container {
+  background: #353c65;
+  flex-direction: row;
+  justify-content: center;
+  gap: 30px;
+  padding-top: 70px;
+  padding-bottom: 70px;
+  display: flex;
+}
+
+.location-block {
+  width: 370px;
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+}
+
+.location {
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+  align-items: center;
+  margin-bottom: 30px;
+  font-family: Raleway;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 21px;
+  display: flex;
+}
+
+.location-block-text {
+  text-align: center;
+  text-transform: capitalize;
+  color: #fff;
+  align-items: center;
+  font-family: Raleway;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px;
+  display: flex;
+}
+
+.icon-block {
+  width: 370px;
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+}
+
+.icon-block-text {
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+  align-items: center;
+  margin-bottom: 50px;
+  font-family: Raleway;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 21px;
+  display: flex;
+}
+
+.icons-in-block {
+  width: 40px;
+  height: 40px;
+  flex-direction: row;
+  gap: 27px;
+  margin-right: 35%;
+  display: flex;
+}
+
+.icons-in-block img {
+  width: 100%;
+  height: 100%;
+}
+
+.about-block {
+  width: 370px;
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+}
+
+.about-activebox-text {
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+  align-items: center;
+  margin-bottom: 30px;
+  font-family: Raleway;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 21px;
+  display: flex;
+}
+
+.about-block-text {
+  text-align: center;
+  text-transform: capitalize;
+  color: #fff;
+  align-items: center;
+  font-family: Raleway;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px;
+  display: flex;
+}
+
+.lower-block-container {
+  background: #2c3154;
+  justify-content: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  display: flex;
+}
+
+.lower-text {
+  text-align: center;
+  text-transform: capitalize;
+  color: gray;
+  align-items: center;
+  font-family: Raleway;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px;
+  display: flex;
+}
+
+.lower-text span {
+  color: #fff;
+  white-space: nowrap;
+}
+
+/*# sourceMappingURL=index.e79ad86a.css.map */
