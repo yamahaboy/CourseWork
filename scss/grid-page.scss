@@ -97,3 +97,86 @@
   transform: 0.5s;
   opacity: 1;
 }
+
+@media (max-width: 1460px) {
+  .hover-display h4 {
+    font-size: 20px;
+  }
+  
+  .hover-display h5{
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 1300px) {
+  .hover-display h4 {
+    width: 100%;
+    font-size: 18px;
+    justify-content: center;
+  }
+  
+  .hover-display h5{
+    width: 100%;
+    font-size: 14px;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 900px){
+  .img-container {
+    display: grid;
+    grid-template-rows: repeat(4, auto);
+    grid-template-columns: repeat(2, auto);
+    .hover-display img {
+      object-fit: cover;
+      width: 100%;
+    }
+  }
+  .hover-display h4 {
+    width: 100%;
+    font-size: 24px;
+    justify-content: center;
+  }
+  
+  .hover-display h5{
+    width: 100%;
+    font-size: 18px;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 700px){
+  .hover-display h4 {
+    width: 100%;
+    font-size: 20px;
+    justify-content: center;
+  }
+  
+  .hover-display h5{
+    width: 100%;
+    font-size: 16px;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 500px){
+  .hover-display h4 {
+    width: 100%;
+    font-size: 18px;
+    justify-content: center;
+  }
+  
+  .hover-display h5{
+    width: 100%;
+    font-size: 14px;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 500px){
+  .hover-display h4 {
+    width: 100%;
+    font-size: 16px;
+    justify-content: center;
+  }
+}
