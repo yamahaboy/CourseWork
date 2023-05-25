@@ -153,3 +153,132 @@
   background: #b90c0c;
   box-shadow: 0 0 3px #000;
 }
+
+@media (max-width: 1250px) {
+  .location-block {
+    width: 315px;
+  }
+  .icon-block {
+    width: 315px;
+  }
+  .about-block {
+    width: 315px;
+  }
+  .location {
+    font-size: 16px;
+  }
+  .location-block-text {
+    font-size: 16px;
+  }
+  .about-activebox-text {
+    font-size: 16px;
+  }
+  .about-block-text {
+    font-size: 16px;
+  }
+  .icons-in-block {
+    margin-right: 38%;
+  }
+}
+
+@media (max-width: 1060px) {
+  .location-block-text {
+    font-size: 14px;
+  }
+  .about-block-text {
+    font-size: 14px;
+  }
+  .lower-text {
+    font-size: 14px;
+  }
+  .icons-in-block {
+    margin-right: 40%;
+  }
+}
+
+@media (max-width: 930px) {
+  .upper-block-container {
+    gap: none;
+  }
+  .icons-in-block {
+    margin-right: 55%;
+  }
+}
+
+@media (max-width: 860px) {
+  .upper-block-container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .location {
+    font-size: 18px;
+  }
+  .location-block-text {
+    font-size: 18px;
+  }
+  .icon-block-text {
+    font-size: 18px;
+  }
+  .icons-in-block {
+    margin-right: 47%;
+  }
+  .about-activebox-text {
+    font-size: 18px;
+  }
+  .about-block-text {
+    font-size: 16px;
+  }
+  .lower-text {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 450px) {
+  .location {
+    font-size: 16px;
+  }
+  .location-block-text {
+    font-size: 16px;
+  }
+  .icon-block-text {
+    font-size: 16px;
+  }
+  .icons-in-block {
+    margin-right: 47%;
+  }
+  .about-activebox-text {
+    font-size: 16px;
+  }
+  .about-block-text {
+    font-size: 14px;
+  }
+  .lower-text {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 450px) {
+  .location {
+    font-size: 14px;
+  }
+  .location-block-text {
+    font-size: 14px;
+  }
+  .icon-block-text {
+    font-size: 14px;
+  }
+  .about-activebox-text {
+    font-size: 14px;
+  }
+  .about-block-text {
+    font-size: 14px;
+  }
+  .lower-text {
+    font-size: 14px;
+  }
+  .icons-in-block {
+    width: 30px;
+    height: 30px;
+    margin-right: 38%;
+  }
+}
