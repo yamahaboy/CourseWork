@@ -26,7 +26,7 @@
   color: #fff;
   align-items: center;
   margin-bottom: 30px;
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
@@ -39,7 +39,7 @@
   text-transform: capitalize;
   color: #fff;
   align-items: center;
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -60,7 +60,7 @@
   color: #fff;
   align-items: center;
   margin-bottom: 50px;
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
@@ -95,7 +95,7 @@
   color: #fff;
   align-items: center;
   margin-bottom: 30px;
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
@@ -108,7 +108,7 @@
   text-transform: capitalize;
   color: #fff;
   align-items: center;
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -128,8 +128,9 @@
   text-align: center;
   text-transform: capitalize;
   color: gray;
+  flex-direction: column;
   align-items: center;
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -140,6 +141,19 @@
 .lower-text span {
   color: #fff;
   white-space: nowrap;
+}
+
+.icons-in-block img:hover {
+  opacity: .8;
+  background: #ff4343;
+  transition: all .5s;
+  box-shadow: 0 0 3px #000;
+}
+
+.icons-in-block img:active {
+  background: #b90c0c;
+  transition: all .3s;
+  box-shadow: 0 0 3px #000;
 }
 
 /*# sourceMappingURL=index.e79ad86a.css.map */

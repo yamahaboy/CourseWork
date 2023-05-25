@@ -7,12 +7,13 @@
   max-width: 100%;
   height: auto;
   flex-direction: row;
+  justify-content: space-between;
   margin-bottom: 30px;
   display: flex;
 }
 
 .photo {
-  width: 35%;
+  width: 50%;
   height: 100%;
 }
 
@@ -22,7 +23,8 @@
 }
 
 .photos-cantainer-text {
-  width: 65%;
+  width: 70%;
+  height: auto;
   text-align: left;
   background: #5c3249;
   flex-direction: column;
@@ -35,7 +37,7 @@
   text-transform: capitalize;
   color: #fff;
   margin-bottom: 10px;
-  font-family: Cardo;
+  font-family: Cardo, sans-serif;
   font-size: 36px;
   font-style: italic;
   font-weight: 400;
@@ -46,7 +48,8 @@
 .photo-text {
   text-transform: uppercase;
   color: #fff;
-  font-family: Raleway;
+  margin-right: 160px;
+  font-family: Raleway, sans-serif;
   font-size: 13px;
   font-style: normal;
   font-weight: 700;
@@ -71,7 +74,8 @@
 .text-ready-to-start {
   text-align: center;
   align-items: center;
-  font-family: Raleway;
+  margin-bottom: 25px;
+  font-family: Raleway, sans-serif;
   font-size: 30px;
   font-style: normal;
   font-weight: 500;
@@ -84,7 +88,7 @@
   text-transform: uppercase;
   align-items: center;
   margin-bottom: 50px;
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
@@ -103,7 +107,7 @@
   justify-content: center;
   align-items: center;
   margin-bottom: 120px;
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   font-size: 24px;
   font-style: normal;
   font-weight: 900;

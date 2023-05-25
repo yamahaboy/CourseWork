@@ -1,0 +1,81 @@
+.personal-card-page {
+  max-width: 100%;
+  height: auto;
+  margin: 115px 0;
+}
+
+.personal-card-page-content {
+  max-width: 1170px;
+  height: auto;
+  margin: auto;
+}
+
+.personal-card-grid-container {
+  grid-gap: 30px;
+  grid-template-columns: repeat(4, 1fr);
+  display: grid;
+}
+
+.personal-photo {
+  margin-bottom: 30px;
+}
+
+.personal-name {
+  text-transform: capitalize;
+  color: #2d3033;
+  align-items: center;
+  margin-bottom: 10px;
+  font-family: Raleway, sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px;
+  display: flex;
+}
+
+.personal-founder {
+  text-transform: uppercase;
+  color: #ff4343;
+  align-items: center;
+  margin-bottom: 17px;
+  font-family: Raleway, sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px;
+  display: flex;
+}
+
+.personal-text {
+  color: #6c7279;
+  align-items: center;
+  margin-bottom: 40px;
+  font-family: Raleway, sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px;
+  display: flex;
+}
+
+.personal-card:hover {
+  transition: all .8s;
+  transform: translateY(-10px);
+  box-shadow: 0 0 5px #000;
+}
+
+.pesonal-card-icons img:hover {
+  opacity: .8;
+  background: #ff4343;
+  transition: all .5s;
+  box-shadow: 0 0 3px #000;
+}
+
+.pesonal-card-icons img:active {
+  opacity: .8;
+  background: #b90c0c;
+  transition: all .3s;
+  box-shadow: 0 0 3px #000;
+}
+
+/*# sourceMappingURL=index.344afa80.css.map */

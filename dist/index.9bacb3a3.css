@@ -22,6 +22,22 @@ html, body {
   display: flex;
 }
 
+.active-box-header-logo {
+  align-items: center;
+  display: flex;
+}
+
+.active-box-header-logo picture {
+  display: flex;
+}
+
+.active-box-header-logo picture img {
+  max-height: 100%;
+  object-fit: contain;
+  padding: 0 2px;
+  display: block;
+}
+
 .active-box-header {
   border-bottom: 1px solid #babbc5;
   justify-content: space-between;
@@ -48,7 +64,7 @@ html, body {
   justify-content: center;
   align-items: center;
   gap: 10px;
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   font-size: 13px;
   font-style: normal;
   font-weight: 700;
@@ -71,11 +87,11 @@ html, body {
   width: 130px;
   border-bottom: 3px solid #babbc5;
   border-radius: 10px;
-  transition: all .5s;
+  transition: all 1s;
   display: flex;
   position: absolute;
   top: 10%;
-  transform: translateY(-5px);
+  transform: translateY(-10px);
   box-shadow: 0 0 5px #000;
 }
 
@@ -91,7 +107,7 @@ html, body {
   color: #fff;
   align-items: center;
   margin-bottom: 30px;
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   font-size: 64px;
   font-style: normal;
   font-weight: 900;
@@ -104,7 +120,7 @@ html, body {
   color: #fff;
   align-items: center;
   margin-bottom: 80px;
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   font-size: 24px;
   font-style: normal;
   font-weight: 400;
@@ -123,7 +139,7 @@ html, body {
   justify-content: center;
   align-items: center;
   margin-bottom: 120px;
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   font-size: 24px;
   font-style: normal;
   font-weight: 900;
@@ -158,9 +174,84 @@ html, body {
   display: grid;
 }
 
-.img-container img {
+.img-container .hover-display img {
   object-fit: cover;
   width: 100%;
+}
+
+.hover-display {
+  position: relative;
+}
+
+.hover-display:before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  background-color: #ff434dcc;
+  transition: opacity .3s;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.hover-display:hover:before {
+  opacity: 1;
+  transform: .5s;
+}
+
+.hover-display:active:before {
+  transform: .5s;
+  background-color: #b90c0ccc;
+}
+
+.hover-display h4 {
+  color: #fff;
+  text-align: center;
+  opacity: 0;
+  text-align: center;
+  text-transform: uppercase;
+  align-items: center;
+  font-family: Raleway, sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 28px;
+  transition: opacity .3s;
+  display: flex;
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.hover-display h5 {
+  color: #fff;
+  text-align: center;
+  opacity: 0;
+  text-align: center;
+  align-items: center;
+  font-family: Raleway, sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px;
+  transition: opacity .3s;
+  display: flex;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.hover-display img {
+  object-fit: cover;
+  width: 100%;
+}
+
+.hover-display:hover h4, .hover-display:hover h5 {
+  transform: .5s;
+  opacity: 1;
 }
 
 /*# sourceMappingURL=index.9bacb3a3.css.map */
