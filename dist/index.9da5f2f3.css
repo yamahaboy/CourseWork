@@ -241,6 +241,7 @@ html, body {
   .active-box-header-logo {
     width: 90px;
     height: 15px;
+    margin-left: 20px;
   }
 
   .burger-icon {
@@ -252,6 +253,11 @@ html, body {
   .burger-icon img {
     width: 100%;
     height: 100%;
+  }
+
+  .active-box-main-text, .active-box-text {
+    margin-left: 20px;
+    margin-right: 20px;
   }
 }
 

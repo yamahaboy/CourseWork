@@ -27,11 +27,16 @@ $text-color: #ffffff;
   display: flex;
   flex-direction: column;
   background: $photos-cantainer-text-back;
-  width: calc(100% - 30%);
+  width: calc(100% - 35%);
   height: auto;
   justify-content: center;
   align-items: center;
   text-align: left;
+}
+.center-container{
+  display: flex;
+  flex-direction: column;
+  align-items: left;
 }
 
 .photo-main-text {
@@ -55,7 +60,6 @@ $text-color: #ffffff;
   line-height: 15px;
   text-transform: uppercase;
   color: $text-color;
-  margin-right: 160px;
 }
 
 .radio-btn-container {
@@ -128,3 +132,112 @@ $text-color: #ffffff;
   box-shadow: 4px 4px 30px #ff4343;
   transition: 1s;
 }
+
+@media (max-width: 1300px){
+ .photo-main-text{
+  font-size: 32px;
+ }
+}
+@media (max-width: 1200px){
+  .photo-main-text{
+   font-size: 28px;
+  }
+  .radio-btn-container img{
+    width: 10px;
+    height: 10px;
+  }
+  .text-ready-to-start{
+    font-size: 28px;
+  }
+  .text-fusce-dapibus{
+    font-size: 16px;
+  }
+  .photo-page-btn {
+    width: 350px;
+    height: 80px;
+    font-size: 22px;
+  }
+ }
+
+ @media (max-width: 1100px){
+  .photo-main-text{
+   font-size: 24px;
+  }
+  .photo-text{
+    font-size: 12px;
+  }
+  .text-ready-to-start{
+    font-size: 24px;
+  }
+  .text-fusce-dapibus{
+    font-size: 16px;
+  }
+  .photo-page-btn {
+    width: 315px;
+    height: 77px;
+    font-size: 18px;
+    margin-bottom: 80px;
+  }
+ }
+
+ @media (max-width: 1000px){
+  .photo-main-text{
+   font-size: 22px;
+  }
+ }
+
+ @media (max-width: 900px){
+  .photos-page-content{
+    flex-direction: column;
+  }
+  .photo {
+    width: 100%;
+    margin-bottom: -5px;
+  }
+  .photos-cantainer-text {
+    width: 100%;
+  }
+  .photo-main-text{
+    font-size: 32px;
+    margin-top: 30px;
+   }
+   .photo-text{
+    font-size: 13px;
+    margin-bottom: 95px;
+  }
+  .radio-btn-container img{
+    width: 14px;
+    height: 14px;
+  }
+ }
+
+ @media (max-width: 700px){
+  .photo-main-text{
+    font-size: 28px;
+   }
+   .photo-text{
+    font-size: 12px;
+  }
+  .radio-btn-container img{
+    width: 10px;
+    height: 10px;
+  }
+ }
+
+ @media (max-width: 500px){
+  .photo-main-text{
+    font-size: 24px;
+   }
+   .photo-page-btn {
+    width: 280px;
+    margin-bottom: 45px;
+  }
+  .text-ready-to-start{
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .text-fusce-dapibus{
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+ }

@@ -250,6 +250,7 @@ $hover-color: #e71414;
   .active-box-header-logo {
     width: 90px;
     height: 15px;
+    margin-left: 20px;
   }
   .burger-icon{
     display: flex;
@@ -259,5 +260,13 @@ $hover-color: #e71414;
   .burger-icon img {
     width: 100%;
     height: 100%;
+  }
+  .active-box-main-text{
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .active-box-text{
+    margin-left: 20px;
+    margin-right: 20px;
   }
 }
