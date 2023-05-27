@@ -185,9 +185,13 @@ $hover-color: #e71414;
   }
   .active-box-main-text{
     font-size: 52px;
+    margin-left: 20px;
+    margin-right: 20px;
   }
   .active-box-text{
     font-size: 18px;
+    margin-left: 20px;
+    margin-right: 20px;
   }
   .active-box-btn{
     width: 313px;
@@ -196,11 +200,17 @@ $hover-color: #e71414;
 }
 
 @media (max-width:1160px){
-  .active-box-main-text{
-    font-size: 48px;
-  }
   .header-btn{
     gap: 0px;
+  }
+  .active-box-main-text{
+    font-size: 48px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .active-box-text{
+    margin-left: 20px;
+    margin-right: 20px;
   }
 }
 
@@ -218,9 +228,17 @@ $hover-color: #e71414;
     width: 100%;
     height: 100%;
   }
+  .active-box-main-text{
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .active-box-text{
+    margin-left: 20px;
+    margin-right: 20px;
+  }
 }
 
-@media (max-width:850px){
+@media (max-width:950px){
   .active-box-main-text{
     font-size:44px;
   }
@@ -232,6 +250,12 @@ $hover-color: #e71414;
 @media (max-width:850px){
   .active-box-main-text{
     font-size:36px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .active-box-text{
+    margin-left: 20px;
+    margin-right: 20px;
   }
 }
 
@@ -244,9 +268,17 @@ $hover-color: #e71414;
     width: 280px;
     height: 60px;
   }
+  .active-box-main-text{
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .active-box-text{
+    margin-left: 20px;
+    margin-right: 20px;
+  }
 }
 
-@media (max-width:620px){
+@media (max-width:520px){
   .active-box-header-logo {
     width: 90px;
     height: 15px;
