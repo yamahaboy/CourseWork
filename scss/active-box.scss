@@ -166,60 +166,58 @@ $hover-color: #e71414;
   transition: 1s;
 }
 
-.burger-icon{
+.burger-icon {
   display: none;
 }
 
-@media (max-width:1300px){
-  .active-box-container{
+@media (max-width: 1300px) {
+  .active-box-container {
     max-width: 100%;
-    
   }
   .active-box-header-logo {
     width: 180px;
     height: 30px;
     margin-left: 20px;
   }
-  .header-btn{
+  .header-btn {
     font-size: 12px;
   }
-  .active-box-main-text{
+  .active-box-main-text {
     font-size: 52px;
     margin-left: 20px;
     margin-right: 20px;
   }
-  .active-box-text{
+  .active-box-text {
     font-size: 18px;
     margin-left: 20px;
     margin-right: 20px;
   }
-  .active-box-btn{
+  .active-box-btn {
     width: 313px;
     height: 77px;
   }
 }
 
-@media (max-width:1160px){
-  .header-btn{
+@media (max-width: 1160px) {
+  .header-btn {
     gap: 0px;
   }
-  .active-box-main-text{
+  .active-box-main-text {
     font-size: 48px;
     margin-left: 20px;
     margin-right: 20px;
   }
-  .active-box-text{
+  .active-box-text {
     margin-left: 20px;
     margin-right: 20px;
   }
 }
 
-
-@media (max-width:1000px){
-  .header-button-container{
+@media (max-width: 1000px) {
+  .header-button-container {
     display: none;
   }
-  .burger-icon{
+  .burger-icon {
     display: flex;
     width: 70px;
     height: 70px;
@@ -228,63 +226,62 @@ $hover-color: #e71414;
     width: 100%;
     height: 100%;
   }
-  .active-box-main-text{
+  .active-box-main-text {
     margin-left: 20px;
     margin-right: 20px;
   }
-  .active-box-text{
+  .active-box-text {
     margin-left: 20px;
     margin-right: 20px;
   }
 }
 
-@media (max-width:950px){
-  .active-box-main-text{
-    font-size:44px;
+@media (max-width: 950px) {
+  .active-box-main-text {
+    font-size: 44px;
   }
-  .active-box-text{
+  .active-box-text {
     font-size: 14px;
   }
 }
 
-@media (max-width:850px){
-  .active-box-main-text{
-    font-size:36px;
+@media (max-width: 850px) {
+  .active-box-main-text {
+    font-size: 36px;
     margin-left: 20px;
     margin-right: 20px;
   }
-  .active-box-text{
+  .active-box-text {
     margin-left: 20px;
     margin-right: 20px;
   }
 }
 
-
-@media (max-width:620px){
-  .active-box-header{
+@media (max-width: 620px) {
+  .active-box-header {
     border: none;
   }
-  .active-box-btn{
+  .active-box-btn {
     width: 280px;
     height: 60px;
   }
-  .active-box-main-text{
+  .active-box-main-text {
     margin-left: 20px;
     margin-right: 20px;
   }
-  .active-box-text{
+  .active-box-text {
     margin-left: 20px;
     margin-right: 20px;
   }
 }
 
-@media (max-width:520px){
+@media (max-width: 520px) {
   .active-box-header-logo {
     width: 90px;
     height: 15px;
     margin-left: 20px;
   }
-  .burger-icon{
+  .burger-icon {
     display: flex;
     width: 50px;
     height: 50px;
@@ -293,11 +290,11 @@ $hover-color: #e71414;
     width: 100%;
     height: 100%;
   }
-  .active-box-main-text{
+  .active-box-main-text {
     margin-left: 20px;
     margin-right: 20px;
   }
-  .active-box-text{
+  .active-box-text {
     margin-left: 20px;
     margin-right: 20px;
   }
