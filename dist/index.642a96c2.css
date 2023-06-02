@@ -291,7 +291,15 @@ html, body {
     height: 100%;
   }
 
-  .active-box-main-text, .active-box-text {
+  .active-box-main-text {
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 36px;
+  }
+
+  .active-box-text {
     margin-left: 20px;
     margin-right: 20px;
   }
@@ -364,6 +372,8 @@ html, body {
 
 .table-block:hover {
   border-radius: 10px;
+  margin-bottom: -5px;
+  padding-bottom: 5px;
   transition: all .5s;
   transform: translateY(-10px);
   box-shadow: 0 0 5px #2d3033;

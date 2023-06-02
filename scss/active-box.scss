@@ -8,6 +8,7 @@ $white-color: #ffffff;
 $backgraund-color: #ff4343;
 $hover-color: #e71414;
 
+
 .page-container {
   max-width: 100%;
   height: auto;
@@ -291,8 +292,11 @@ $hover-color: #e71414;
     height: 100%;
   }
   .active-box-main-text {
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 36px;
   }
   .active-box-text {
     margin-left: 20px;

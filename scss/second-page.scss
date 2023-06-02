@@ -74,6 +74,8 @@ $grid-text-color: #6c7279;
   box-shadow: 0 0 5px $grid-header-color;
   border-radius: 10px;
   transform: translateY(-10px);
+  padding-bottom: 5px;
+  margin-bottom: -5px;
 }
 
 .table-block:active {
