@@ -10,10 +10,10 @@
   "author": "Aleksej",
   "license": "ISC",
   "dependencies": {
-    "parcel": "^2.8.3",
-    "sass": "^1.62.1"
+    "parcel": "^2.8.3"
   },
   "devDependencies": {
-    "@parcel/transformer-sass": "^2.8.3"
+    "@parcel/transformer-sass": "^2.8.3",
+    "sass": "^1.62.1"
   }
 }
