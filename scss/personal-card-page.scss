@@ -1,3 +1,10 @@
+$facebook-light:	#8b9dc3;
+$facebook-dark:	#3b5998;
+$lindeklin-light:#0077B5;
+$lindeklin-dark:#005F90;
+$twitter-light:#1DA1F2;
+$twitter-dark:#1780C1;
+;
 .personal-card-page {
   max-width: 100%;
   height: auto;
@@ -66,17 +73,33 @@
 
 .pesonal-card-icons img:hover {
   transition: 0.5s;
-  background: #ff4343;
   opacity: 0.8;
   box-shadow: 0 0 3px #000;
 }
-
 .pesonal-card-icons img:active {
   transition: 0.3s;
-  background: #b90c0c;
   opacity: 0.8;
   box-shadow: 0 0 3px #000;
 }
+.facebook:hover{
+  background: $facebook-light;
+}
+.facebook:active{
+  background: $facebook-dark;
+}
+.twitter:hover{
+  background: $twitter-light;
+}
+.twitter:active{
+  background: $twitter-dark;
+}
+.lindeklin:hover{
+  background: $lindeklin-light;
+}
+.lindeklin:active{
+  background: $lindeklin-dark;
+}
+
 
 @media (max-width: 1300px) {
   .personal-card-page-content {
@@ -225,5 +248,14 @@
   .pesonal-card-icons img {
     width: 100%;
     height: 100%;
+  }
+  .personal-card-page{
+    margin: 0;
+  }
+  .personal-card{
+    margin-bottom: 35px;
+  }
+  .personal-card:first-child{
+    margin-top: 35px;
   }
 }

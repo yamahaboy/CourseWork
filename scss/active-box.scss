@@ -33,10 +33,7 @@ $hover-color: #e71414;
   align-items: center;
 }
 
-.active-box-header-logo picture {
-  display: flex;
-}
-.active-box-header-logo picture img {
+.active-box-header-logo  img {
   display: block;
   max-height: 100%;
   object-fit: contain;
@@ -170,6 +167,9 @@ $hover-color: #e71414;
 .burger-icon {
   display: none;
 }
+.br-mobile{
+  display: none;
+}
 
 @media (max-width: 1300px) {
   .active-box-container {
@@ -259,8 +259,19 @@ $hover-color: #e71414;
 }
 
 @media (max-width: 620px) {
+  .active-box-header-logo {
+    width: 90px;
+    height: 15px;
+    margin-left: 20px;
+  }
+  .active-box-header-logo img {
+    width: 100%;
+    height: 100%;
+  }
   .active-box-header {
+    margin-top: 20px;
     border: none;
+    margin-bottom: 40px;
   }
   .active-box-btn {
     width: 280px;
@@ -273,15 +284,15 @@ $hover-color: #e71414;
   .active-box-text {
     margin-left: 20px;
     margin-right: 20px;
+    margin-bottom: 50px;
+  }
+  .active-box-btn{
+    margin-bottom: 50px;
   }
 }
 
 @media (max-width: 520px) {
-  .active-box-header-logo {
-    width: 90px;
-    height: 15px;
-    margin-left: 20px;
-  }
+ 
   .burger-icon {
     display: flex;
     width: 50px;
@@ -297,9 +308,14 @@ $hover-color: #e71414;
     padding-left: 20px;
     padding-right: 20px;
     font-size: 36px;
+    line-height: 42px;
   }
   .active-box-text {
     margin-left: 20px;
     margin-right: 20px;
+    line-height: 16px;
+  }
+  .br-mobile{
+    display: flex;
   }
 }

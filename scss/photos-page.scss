@@ -73,7 +73,7 @@ $text-color: #ffffff;
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 115px;
+ 
 }
 
 .text-ready-to-start {
@@ -161,10 +161,15 @@ $text-color: #ffffff;
 
 @media (max-width: 1100px) {
   .photo-main-text {
-    font-size: 24px;
+    font-size: 24px;  
+    line-height: 32px;
+
+
   }
   .photo-text {
     font-size: 12px;
+    line-height: 14px;
+    
   }
   .text-ready-to-start {
     font-size: 24px;
@@ -190,6 +195,9 @@ $text-color: #ffffff;
   .photos-page-content {
     flex-direction: column;
   }
+  .center-container{
+    text-align: center;
+  }
   .photo {
     width: 100%;
     margin-bottom: -5px;
@@ -199,11 +207,14 @@ $text-color: #ffffff;
   }
   .photo-main-text {
     font-size: 32px;
+    line-height: 32px;
     margin-top: 30px;
+    margin-bottom: 20px;
   }
   .photo-text {
     font-size: 13px;
-    margin-bottom: 95px;
+    margin-bottom: 120px;
+    margin-left: 10px;
   }
   .radio-btn-container img {
     width: 14px;
@@ -237,6 +248,7 @@ $text-color: #ffffff;
     margin-right: 20px;
   }
   .text-fusce-dapibus {
+    margin-bottom: 10px;
     margin-left: 20px;
     margin-right: 20px;
   }

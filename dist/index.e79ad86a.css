@@ -145,15 +145,37 @@
 
 .icons-in-block img:hover {
   opacity: .8;
-  background: #ff4343;
   transition: all .5s;
   box-shadow: 0 0 3px #000;
 }
 
 .icons-in-block img:active {
-  background: #b90c0c;
   transition: all .3s;
   box-shadow: 0 0 3px #000;
+}
+
+.facebook:hover {
+  background: #8b9dc3;
+}
+
+.facebook:active {
+  background: #3b5998;
+}
+
+.twitter:hover {
+  background: #1da1f2;
+}
+
+.twitter:active {
+  background: #1780c1;
+}
+
+.lindeklin:hover {
+  background: #0077b5;
+}
+
+.lindeklin:active {
+  background: #005f90;
 }
 
 @media (width <= 1250px) {
@@ -217,7 +239,7 @@
   }
 }
 
-@media (width <= 450px) {
+@media (width <= 650px) {
   .location, .location-block-text, .icon-block-text {
     font-size: 16px;
   }
@@ -237,7 +259,9 @@
   .lower-text {
     font-size: 16px;
   }
+}
 
+@media (width <= 450px) {
   .location, .location-block-text, .icon-block-text, .about-activebox-text, .about-block-text, .lower-text {
     font-size: 14px;
   }

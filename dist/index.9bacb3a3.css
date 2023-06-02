@@ -27,11 +27,7 @@ html, body {
   display: flex;
 }
 
-.active-box-header-logo picture {
-  display: flex;
-}
-
-.active-box-header-logo picture img {
+.active-box-header-logo img {
   max-height: 100%;
   object-fit: contain;
   padding: 0 2px;
@@ -158,7 +154,7 @@ html, body {
   box-shadow: 4px 4px 30px #ff4343;
 }
 
-.burger-icon {
+.burger-icon, .br-mobile {
   display: none;
 }
 
@@ -258,8 +254,21 @@ html, body {
 }
 
 @media (width <= 620px) {
+  .active-box-header-logo {
+    width: 90px;
+    height: 15px;
+    margin-left: 20px;
+  }
+
+  .active-box-header-logo img {
+    width: 100%;
+    height: 100%;
+  }
+
   .active-box-header {
     border: none;
+    margin-top: 20px;
+    margin-bottom: 40px;
   }
 
   .active-box-btn {
@@ -267,19 +276,23 @@ html, body {
     height: 60px;
   }
 
-  .active-box-main-text, .active-box-text {
+  .active-box-main-text {
     margin-left: 20px;
     margin-right: 20px;
+  }
+
+  .active-box-text {
+    margin-bottom: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .active-box-btn {
+    margin-bottom: 50px;
   }
 }
 
 @media (width <= 520px) {
-  .active-box-header-logo {
-    width: 90px;
-    height: 15px;
-    margin-left: 20px;
-  }
-
   .burger-icon {
     width: 50px;
     height: 50px;
@@ -297,11 +310,17 @@ html, body {
     padding-left: 20px;
     padding-right: 20px;
     font-size: 36px;
+    line-height: 42px;
   }
 
   .active-box-text {
     margin-left: 20px;
     margin-right: 20px;
+    line-height: 16px;
+  }
+
+  .br-mobile {
+    display: flex;
   }
 }
 
