@@ -1,10 +1,9 @@
-$facebook-light:	#8b9dc3;
-$facebook-dark:	#3b5998;
-$lindeklin-light:#0077B5;
-$lindeklin-dark:#005F90;
-$twitter-light:#1DA1F2;
-$twitter-dark:#1780C1;
-;
+$facebook-light: #8b9dc3;
+$facebook-dark: #3b5998;
+$lindeklin-light: #0077b5;
+$lindeklin-dark: #005f90;
+$twitter-light: #1da1f2;
+$twitter-dark: #1780c1;
 .personal-card-page {
   max-width: 100%;
   height: auto;
@@ -81,25 +80,24 @@ $twitter-dark:#1780C1;
   opacity: 0.8;
   box-shadow: 0 0 3px #000;
 }
-.facebook:hover{
+.facebook:hover {
   background: $facebook-light;
 }
-.facebook:active{
+.facebook:active {
   background: $facebook-dark;
 }
-.twitter:hover{
+.twitter:hover {
   background: $twitter-light;
 }
-.twitter:active{
+.twitter:active {
   background: $twitter-dark;
 }
-.lindeklin:hover{
+.lindeklin:hover {
   background: $lindeklin-light;
 }
-.lindeklin:active{
+.lindeklin:active {
   background: $lindeklin-dark;
 }
-
 
 @media (max-width: 1300px) {
   .personal-card-page-content {
@@ -249,13 +247,13 @@ $twitter-dark:#1780C1;
     width: 100%;
     height: 100%;
   }
-  .personal-card-page{
+  .personal-card-page {
     margin: 0;
   }
-  .personal-card{
+  .personal-card {
     margin-bottom: 35px;
   }
-  .personal-card:first-child{
+  .personal-card:first-child {
     margin-top: 35px;
   }
 }

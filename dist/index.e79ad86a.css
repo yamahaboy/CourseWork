@@ -262,7 +262,21 @@
 }
 
 @media (width <= 450px) {
-  .location, .location-block-text, .icon-block-text, .about-activebox-text, .about-block-text, .lower-text {
+  .location {
+    margin-bottom: 34px;
+    font-size: 14px;
+  }
+
+  .location-block-text {
+    font-size: 14px;
+  }
+
+  .icon-block-text, .about-activebox-text {
+    margin-bottom: 36px;
+    font-size: 14px;
+  }
+
+  .about-block-text, .lower-text {
     font-size: 14px;
   }
 
@@ -270,6 +284,26 @@
     width: 30px;
     height: 30px;
     margin-right: 38%;
+  }
+
+  .upper-block-container {
+    padding-top: 0;
+    padding-bottom: 33px;
+  }
+
+  .location-block {
+    width: 280px;
+    margin-top: 34px;
+    margin-bottom: 70px;
+  }
+
+  .icon-block {
+    width: 280px;
+    margin-bottom: 60px;
+  }
+
+  .about-block {
+    width: 280px;
   }
 }
 

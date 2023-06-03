@@ -1,9 +1,9 @@
-$facebook-light:	#8b9dc3;
-$facebook-dark:	#3b5998;
-$lindeklin-light:#0077B5;
-$lindeklin-dark:#005F90;
-$twitter-light:#1DA1F2;
-$twitter-dark:#1780C1;
+$facebook-light: #8b9dc3;
+$facebook-dark: #3b5998;
+$lindeklin-light: #0077b5;
+$lindeklin-dark: #005f90;
+$twitter-light: #1da1f2;
+$twitter-dark: #1780c1;
 
 .footer-page {
   max-width: 100%;
@@ -158,22 +158,22 @@ $twitter-dark:#1780C1;
   transition: 0.3s;
   box-shadow: 0 0 3px #000;
 }
-.facebook:hover{
+.facebook:hover {
   background: $facebook-light;
 }
-.facebook:active{
+.facebook:active {
   background: $facebook-dark;
 }
-.twitter:hover{
+.twitter:hover {
   background: $twitter-light;
 }
-.twitter:active{
+.twitter:active {
   background: $twitter-dark;
 }
-.lindeklin:hover{
+.lindeklin:hover {
   background: $lindeklin-light;
 }
-.lindeklin:active{
+.lindeklin:active {
   background: $lindeklin-dark;
 }
 
@@ -283,15 +283,18 @@ $twitter-dark:#1780C1;
 @media (max-width: 450px) {
   .location {
     font-size: 14px;
+    margin-bottom: 34px;
   }
   .location-block-text {
     font-size: 14px;
   }
   .icon-block-text {
     font-size: 14px;
+    margin-bottom: 36px;
   }
   .about-activebox-text {
     font-size: 14px;
+    margin-bottom: 36px;
   }
   .about-block-text {
     font-size: 14px;
@@ -304,5 +307,20 @@ $twitter-dark:#1780C1;
     height: 30px;
     margin-right: 38%;
   }
+  .upper-block-container {
+    padding-top: 0px;
+    padding-bottom: 33px;
+  }
+  .location-block {
+    margin-top: 34px;
+    margin-bottom: 70px;
+    width: 280px;
+  }
+  .icon-block {
+    margin-bottom: 60px;
+    width: 280px;
+  }
+  .about-block{
+    width: 280px;
+  }
 }
-

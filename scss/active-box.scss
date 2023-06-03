@@ -8,7 +8,6 @@ $white-color: #ffffff;
 $backgraund-color: #ff4343;
 $hover-color: #e71414;
 
-
 .page-container {
   max-width: 100%;
   height: auto;
@@ -33,7 +32,7 @@ $hover-color: #e71414;
   align-items: center;
 }
 
-.active-box-header-logo  img {
+.active-box-header-logo img {
   display: block;
   max-height: 100%;
   object-fit: contain;
@@ -167,7 +166,7 @@ $hover-color: #e71414;
 .burger-icon {
   display: none;
 }
-.br-mobile{
+.br-mobile {
   display: none;
 }
 
@@ -286,13 +285,12 @@ $hover-color: #e71414;
     margin-right: 20px;
     margin-bottom: 50px;
   }
-  .active-box-btn{
+  .active-box-btn {
     margin-bottom: 50px;
   }
 }
 
 @media (max-width: 520px) {
- 
   .burger-icon {
     display: flex;
     width: 50px;
@@ -315,7 +313,7 @@ $hover-color: #e71414;
     margin-right: 20px;
     line-height: 16px;
   }
-  .br-mobile{
+  .br-mobile {
     display: flex;
   }
 }
