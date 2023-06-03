@@ -1,0 +1,247 @@
+.photos-page {
+  max-width: 100%;
+  height: auto;
+}
+
+.photos-page-content {
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 30px;
+  justify-content: space-between;
+}
+
+.photo {
+  width: 50%;
+  height: 100%;
+}
+
+.photo img {
+  width: 100%;
+  height: 100%;
+}
+
+.photos-cantainer-text {
+  display: flex;
+  flex-direction: column;
+  background: #5c3249;
+  width: 65%;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+}
+
+.center-container {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+}
+
+.photo-main-text {
+  display: flex;
+  font-family: "Cardo", sans-serif;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 49px;
+  text-transform: capitalize;
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+
+.photo-text {
+  display: flex;
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 15px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.radio-btn-container {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  margin-bottom: 115px;
+}
+
+.photo-page-text-button-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.text-ready-to-start {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 35px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.text-fusce-dapibus {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 50px;
+}
+
+.photo-page-btn {
+  width: 370px;
+  height: 80px;
+  margin-bottom: 120px;
+  background: #ff4343;
+  border: none;
+}
+
+.photo-page-btn {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.photo-page-btn:hover {
+  background: #e71414;
+  transition: 0.5s;
+}
+
+.photo-page-btn:active {
+  background: #ff4343;
+  box-shadow: 4px 4px 30px #ff4343;
+  transition: 1s;
+}
+
+@media (max-width: 1300px) {
+  .photo-main-text {
+    font-size: 32px;
+  }
+}
+@media (max-width: 1200px) {
+  .photo-main-text {
+    font-size: 28px;
+  }
+  .radio-btn-container img {
+    width: 10px;
+    height: 10px;
+  }
+  .text-ready-to-start {
+    font-size: 28px;
+  }
+  .text-fusce-dapibus {
+    font-size: 16px;
+  }
+  .photo-page-btn {
+    width: 350px;
+    height: 80px;
+    font-size: 22px;
+  }
+}
+@media (max-width: 1100px) {
+  .photo-main-text {
+    font-size: 24px;
+    line-height: 32px;
+  }
+  .photo-text {
+    font-size: 12px;
+    line-height: 14px;
+  }
+  .text-ready-to-start {
+    font-size: 24px;
+  }
+  .text-fusce-dapibus {
+    font-size: 16px;
+  }
+  .photo-page-btn {
+    width: 315px;
+    height: 77px;
+    font-size: 18px;
+    margin-bottom: 80px;
+  }
+}
+@media (max-width: 1000px) {
+  .photo-main-text {
+    font-size: 22px;
+  }
+}
+@media (max-width: 900px) {
+  .photos-page-content {
+    flex-direction: column;
+  }
+  .center-container {
+    text-align: center;
+  }
+  .photo {
+    width: 100%;
+    margin-bottom: -5px;
+  }
+  .photos-cantainer-text {
+    width: 100%;
+  }
+  .photo-main-text {
+    font-size: 32px;
+    line-height: 32px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+  .photo-text {
+    font-size: 13px;
+    margin-bottom: 120px;
+    margin-left: 10px;
+  }
+  .radio-btn-container img {
+    width: 14px;
+    height: 14px;
+  }
+}
+@media (max-width: 700px) {
+  .photo-main-text {
+    font-size: 28px;
+  }
+  .photo-text {
+    font-size: 12px;
+  }
+  .radio-btn-container img {
+    width: 10px;
+    height: 10px;
+  }
+}
+@media (max-width: 500px) {
+  .photo-main-text {
+    font-size: 24px;
+  }
+  .photo-page-btn {
+    width: 280px;
+    margin-bottom: 45px;
+  }
+  .text-ready-to-start {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .text-fusce-dapibus {
+    margin-bottom: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}/*# sourceMappingURL=photos-page.css.map */

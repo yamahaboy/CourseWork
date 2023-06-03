@@ -1,0 +1,271 @@
+.photos-page {
+  max-width: 100%;
+  height: auto;
+}
+
+.photos-page-content {
+  max-width: 100%;
+  height: auto;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 30px;
+  display: flex;
+}
+
+.photo {
+  width: 50%;
+  height: 100%;
+}
+
+.photo img {
+  width: 100%;
+  height: 100%;
+}
+
+.photos-cantainer-text {
+  width: 65%;
+  height: auto;
+  text-align: left;
+  background: #5c3249;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.center-container {
+  align-items: left;
+  flex-direction: column;
+  display: flex;
+}
+
+.photo-main-text {
+  text-transform: capitalize;
+  color: #fff;
+  margin-bottom: 10px;
+  font-family: Cardo, sans-serif;
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 49px;
+  display: flex;
+}
+
+.photo-text {
+  text-transform: uppercase;
+  color: #fff;
+  font-family: Raleway, sans-serif;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 15px;
+  display: flex;
+}
+
+.radio-btn-container {
+  justify-content: center;
+  gap: 25px;
+  margin-bottom: 115px;
+  display: flex;
+}
+
+.photo-page-text-button-container {
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+}
+
+.text-ready-to-start {
+  text-align: center;
+  align-items: center;
+  margin-bottom: 25px;
+  font-family: Raleway, sans-serif;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 35px;
+  display: flex;
+}
+
+.text-fusce-dapibus {
+  text-align: center;
+  text-transform: uppercase;
+  align-items: center;
+  margin-bottom: 50px;
+  font-family: Raleway, sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 21px;
+  display: flex;
+}
+
+.photo-page-btn {
+  width: 370px;
+  height: 80px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+  background: #ff4343;
+  border: none;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 120px;
+  font-family: Raleway, sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 28px;
+  display: flex;
+}
+
+.photo-page-btn:hover {
+  background: #e71414;
+  transition: all .5s;
+}
+
+.photo-page-btn:active {
+  background: #ff4343;
+  transition: all 1s;
+  box-shadow: 4px 4px 30px #ff4343;
+}
+
+@media (width <= 1300px) {
+  .photo-main-text {
+    font-size: 32px;
+  }
+}
+
+@media (width <= 1200px) {
+  .photo-main-text {
+    font-size: 28px;
+  }
+
+  .radio-btn-container img {
+    width: 10px;
+    height: 10px;
+  }
+
+  .text-ready-to-start {
+    font-size: 28px;
+  }
+
+  .text-fusce-dapibus {
+    font-size: 16px;
+  }
+
+  .photo-page-btn {
+    width: 350px;
+    height: 80px;
+    font-size: 22px;
+  }
+}
+
+@media (width <= 1100px) {
+  .photo-main-text {
+    font-size: 24px;
+    line-height: 32px;
+  }
+
+  .photo-text {
+    font-size: 12px;
+    line-height: 14px;
+  }
+
+  .text-ready-to-start {
+    font-size: 24px;
+  }
+
+  .text-fusce-dapibus {
+    font-size: 16px;
+  }
+
+  .photo-page-btn {
+    width: 315px;
+    height: 77px;
+    margin-bottom: 80px;
+    font-size: 18px;
+  }
+}
+
+@media (width <= 1000px) {
+  .photo-main-text {
+    font-size: 22px;
+  }
+}
+
+@media (width <= 900px) {
+  .photos-page-content {
+    flex-direction: column;
+  }
+
+  .center-container {
+    text-align: center;
+  }
+
+  .photo {
+    width: 100%;
+    margin-bottom: -5px;
+  }
+
+  .photos-cantainer-text {
+    width: 100%;
+  }
+
+  .photo-main-text {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 32px;
+    line-height: 32px;
+  }
+
+  .photo-text {
+    margin-bottom: 120px;
+    margin-left: 10px;
+    font-size: 13px;
+  }
+
+  .radio-btn-container img {
+    width: 14px;
+    height: 14px;
+  }
+}
+
+@media (width <= 700px) {
+  .photo-main-text {
+    font-size: 28px;
+  }
+
+  .photo-text {
+    font-size: 12px;
+  }
+
+  .radio-btn-container img {
+    width: 10px;
+    height: 10px;
+  }
+}
+
+@media (width <= 500px) {
+  .photo-main-text {
+    font-size: 24px;
+  }
+
+  .photo-page-btn {
+    width: 280px;
+    margin-bottom: 45px;
+  }
+
+  .text-ready-to-start {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .text-fusce-dapibus {
+    margin-bottom: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
+
+/*# sourceMappingURL=index.33decd37.css.map */
