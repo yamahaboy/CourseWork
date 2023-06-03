@@ -175,6 +175,11 @@
     justify-content: center;
     font-size: 18px;
     font-weight: 900;
+    top: 25%;
+  }
+
+  .hover-display h5 {
+    top: 40%;
   }
 }
 
