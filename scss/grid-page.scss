@@ -1,5 +1,4 @@
-@use "active-box" as lcl;
-
+@use "colors" as vars;
 .grid-img-page {
   max-width: 100%;
   height: auto;
@@ -30,7 +29,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: #ff434dcc;
+  background-color: vars.$hover-img-color;
   opacity: 0;
   transition: opacity 0.3s ease;
 }
@@ -40,7 +39,7 @@
   transform: 0.5s;
 }
 .hover-display:active:before {
-  background-color: #b90c0ccc;
+  background-color: vars.$active-img-color;
   transform: 0.5s;
 }
 .hover-display h4 {

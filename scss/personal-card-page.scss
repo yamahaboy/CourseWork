@@ -1,9 +1,5 @@
-$facebook-light: #8b9dc3;
-$facebook-dark: #3b5998;
-$lindeklin-light: #0077b5;
-$lindeklin-dark: #005f90;
-$twitter-light: #1da1f2;
-$twitter-dark: #1780c1;
+@use "colors" as vars;
+
 .personal-card-page {
   max-width: 100%;
   height: auto;
@@ -48,7 +44,7 @@ $twitter-dark: #1780c1;
   display: flex;
   align-items: center;
   text-transform: uppercase;
-  color: #ff4343;
+  color:vars.$backgraund-color;
   margin-bottom: 17px;
 }
 
@@ -81,22 +77,22 @@ $twitter-dark: #1780c1;
   box-shadow: 0 0 3px #000;
 }
 .facebook:hover {
-  background: $facebook-light;
+  background: vars.$facebook-light;
 }
 .facebook:active {
-  background: $facebook-dark;
+  background: vars.$facebook-dark;
 }
 .twitter:hover {
-  background: $twitter-light;
+  background: vars.$twitter-light;
 }
 .twitter:active {
-  background: $twitter-dark;
+  background: vars.$twitter-dark;
 }
 .lindeklin:hover {
-  background: $lindeklin-light;
+  background: vars.$lindeklin-light;
 }
 .lindeklin:active {
-  background: $lindeklin-dark;
+  background: vars.$lindeklin-dark;
 }
 
 @media (max-width: 1300px) {

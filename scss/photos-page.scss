@@ -1,5 +1,6 @@
-$photos-cantainer-text-back: #5c3249;
-$text-color: #ffffff;
+@use "colors" as vars;
+
+
 .photos-page {
   max-width: 100%;
   height: auto;
@@ -26,7 +27,7 @@ $text-color: #ffffff;
 .photos-cantainer-text {
   display: flex;
   flex-direction: column;
-  background: $photos-cantainer-text-back;
+  background: vars.$photos-cantainer-text-back;
   width: calc(100% - 35%);
   height: auto;
   justify-content: center;
@@ -47,7 +48,7 @@ $text-color: #ffffff;
   font-size: 36px;
   line-height: 49px;
   text-transform: capitalize;
-  color: $text-color;
+  color: vars.$white-color;
   margin-bottom: 10px;
 }
 
@@ -59,7 +60,7 @@ $text-color: #ffffff;
   font-size: 13px;
   line-height: 15px;
   text-transform: uppercase;
-  color: $text-color;
+  color: vars.$white-color;
 }
 
 .radio-btn-container {
@@ -104,7 +105,7 @@ $text-color: #ffffff;
   width: 370px;
   height: 80px;
   margin-bottom: 120px;
-  background: #ff4343;
+  background: vars.$backgraund-color;
   border: none;
 }
 .photo-page-btn {
@@ -122,13 +123,13 @@ $text-color: #ffffff;
 }
 
 .photo-page-btn:hover {
-  background: #e71414;
+  background: vars.$hover-color;
   transition: 0.5s;
 }
 
 .photo-page-btn:active {
-  background: #ff4343;
-  box-shadow: 4px 4px 30px #ff4343;
+  background: vars.$backgraund-color;
+  box-shadow: 4px 4px 30px vars.$backgraund-color;
   transition: 1s;
 }
 

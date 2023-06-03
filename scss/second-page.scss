@@ -1,7 +1,6 @@
-@use "active-box" as vars;
+@use "colors" as vars;
 
-$grid-header-color: #2d3033;
-$grid-text-color: #6c7279;
+
 .second-page {
   max-width: 100%;
   height: auto;
@@ -49,7 +48,7 @@ $grid-text-color: #6c7279;
   align-items: center;
   text-align: center;
   text-transform: uppercase;
-  color: $grid-header-color;
+  color: vars.$grid-header-color;
   margin-bottom: 40px;
 }
 
@@ -66,12 +65,12 @@ $grid-text-color: #6c7279;
   display: flex;
   align-items: center;
   text-align: center;
-  color: $grid-text-color;
+  color: vars.$grid-text-color;
 }
 
 .table-block:hover {
   transition: 0.5s;
-  box-shadow: 0 0 5px $grid-header-color;
+  box-shadow: 0 0 5px vars.$grid-header-color;
   border-radius: 10px;
   transform: translateY(-10px);
   padding-bottom: 5px;
@@ -80,7 +79,7 @@ $grid-text-color: #6c7279;
 
 .table-block:active {
   transition: 0.5s;
-  box-shadow: 0 0 5px $grid-header-color;
+  box-shadow: 0 0 5px vars.$grid-header-color;
   border-radius: 10px;
   transform: translateY(-10px);
   background: rgba(vars.$backgraund-color, 0.3);
