@@ -14,8 +14,7 @@
   grid-template-columns: repeat(4, auto);
 }
 .img-container .hover-display img {
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   width: 100%;
 }
 
@@ -91,8 +90,7 @@
 }
 
 .hover-display img {
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   width: 100%;
 }
 
@@ -129,8 +127,7 @@
     grid-template-columns: repeat(2, auto);
   }
   .img-container .hover-display img {
-    -o-object-fit: cover;
-       object-fit: cover;
+    object-fit: cover;
     width: 100%;
   }
   .hover-display h4 {

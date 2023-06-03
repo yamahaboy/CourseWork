@@ -15,7 +15,6 @@
 }
 
 .img-container .hover-display img {
-  -o-object-fit: cover;
   object-fit: cover;
   width: 100%;
 }
@@ -86,7 +85,6 @@
 }
 
 .hover-display img {
-  -o-object-fit: cover;
   object-fit: cover;
   width: 100%;
 }
@@ -128,7 +126,6 @@
   }
 
   .img-container .hover-display img {
-    -o-object-fit: cover;
     object-fit: cover;
     width: 100%;
   }
