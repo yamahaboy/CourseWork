@@ -69,14 +69,14 @@ body {
   text-align: center;
   justify-content: center;
   text-transform: uppercase;
-  color:vars.$white-color;
+  color: vars.$white-color;
 }
 
 .header-btn:hover::after {
   content: "";
   display: flex;
   position: absolute;
-  top: 10%;
+  top: 10.3%;
   width: 130px;
   border-bottom: 3px solid #babbc5;
   transition: 2s;
@@ -86,7 +86,7 @@ body {
   content: "";
   display: flex;
   position: absolute;
-  top: 10%;
+  top: 10.3%;
   width: 130px;
   border-bottom: 3px solid #babbc5;
   transition: 1s;
